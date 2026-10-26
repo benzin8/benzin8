@@ -3,7 +3,7 @@
 <img src="./assets/header.svg" width="100%" alt="benzin8 — don't code dumb"/>
 
 <a href="https://github.com/benzin8">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=700&color=FF3E9A&center=true&vCenter=true&width=720&lines=Hey%2C+I'm+benzin8+%F0%9F%91%8B;Building+Telegram+bots+%26+AI+tools+%F0%9F%A4%96;3D+knowledge+graphs+with+three.js+%F0%9F%8C%8C;Python+%C2%B7+TypeScript+%C2%B7+React;Don't+code+dumb.+Ship+it+loud.+%F0%9F%9A%AB%F0%9F%A7%A0" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=700&color=E8202A&center=true&vCenter=true&width=720&lines=Hey%2C+I'm+benzin8+%F0%9F%91%8B;Building+Telegram+bots+%26+AI+tools+%F0%9F%A4%96;3D+knowledge+graphs+with+three.js+%F0%9F%8C%8C;Python+%C2%B7+TypeScript+%C2%B7+React;Don't+code+dumb.+Ship+it+loud.+%F0%9F%9A%AB%F0%9F%A7%A0" alt="Typing SVG"/>
 </a>
 
 </div>
@@ -42,7 +42,7 @@ const benzin8 = {
 
 <p align="center">
   <a href="https://github.com/benzin8"><img src="https://img.shields.io/badge/GitHub-benzin8-0b0712?style=for-the-badge&logo=github&logoColor=white&labelColor=e8202a"/></a>
-  <img src="https://komarev.com/ghpvc/?username=benzin8&label=PROFILE+VIEWS&color=ff3e9a&style=for-the-badge" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=benzin8&label=PROFILE+VIEWS&color=e8202a&style=for-the-badge" alt="profile views"/>
 </p>
 
 <img src="./assets/footer.svg" width="100%" alt="thanks for dropping by"/>

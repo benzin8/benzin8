@@ -17,7 +17,7 @@
   <rect y="80" width="1200" height="10" fill="url(#stripes)"/>
   <g filter="url(#wobble)" font-family="Arial Black, Impact, sans-serif" font-size="30" text-anchor="middle" stroke="#0b0712" stroke-width="3" paint-order="stroke">
     <text x="600" y="58">
-      <tspan fill="#ff3e9a">THANKS </tspan><tspan fill="#ffd23f">FOR </tspan><tspan fill="#9be33a">DROPPING </tspan><tspan fill="#3ed1ff">BY </tspan><tspan fill="#e8202a">— DON'T BE DUMB</tspan>
+      <tspan fill="#f4f1e8">THANKS </tspan><tspan fill="#f4f1e8">FOR </tspan><tspan fill="#f4f1e8">DROPPING </tspan><tspan fill="#f4f1e8">BY </tspan><tspan fill="#e8202a">— DON'T BE DUMB</tspan>
       <animate attributeName="opacity" values="1;0.75;1" dur="1.2s" repeatCount="indefinite"/>
     </text>
   </g>

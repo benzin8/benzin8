@@ -17,13 +17,13 @@
       <feGaussianBlur stdDeviation="14"/>
     </filter>
     <radialGradient id="sky" cx="75%" cy="20%" r="95%">
-      <stop offset="0" stop-color="#3a1d6e"/>
-      <stop offset="0.45" stop-color="#1b0f3a"/>
-      <stop offset="1" stop-color="#07040f"/>
+      <stop offset="0" stop-color="#2b2b30"/>
+      <stop offset="0.45" stop-color="#141416"/>
+      <stop offset="1" stop-color="#050506"/>
     </radialGradient>
     <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1a1030"/>
-      <stop offset="1" stop-color="#05030a"/>
+      <stop offset="0" stop-color="#1c1c20"/>
+      <stop offset="1" stop-color="#050506"/>
     </linearGradient>
     <pattern id="stripes" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
       <rect width="20" height="40" fill="#f4f1e8"/>
@@ -38,7 +38,7 @@
   <rect width="1200" height="420" fill="url(#sky)"/>
 
   <!-- twinkling stars -->
-  <g fill="#fff6c7">
+  <g fill="#ffffff">
     <circle cx="420" cy="40" r="2"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" repeatCount="indefinite"/></circle>
     <circle cx="530" cy="90" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.7s" repeatCount="indefinite"/></circle>
     <circle cx="680" cy="30" r="2.2"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
@@ -48,25 +48,25 @@
     <circle cx="470" cy="150" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="2.3s" repeatCount="indefinite"/></circle>
     <circle cx="60" cy="40" r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
   </g>
-  <g fill="#ffd23f" filter="url(#wobble)">
+  <g fill="#f4f1e8" filter="url(#wobble)">
     <path d="M600,60 l4,10 l10,4 l-10,4 l-4,10 l-4,-10 l-10,-4 l10,-4z">
       <animateTransform attributeName="transform" type="rotate" values="0 600 74;360 600 74" dur="8s" repeatCount="indefinite"/>
     </path>
-    <path d="M1100,40 l3,8 l8,3 l-8,3 l-3,8 l-3,-8 l-8,-3 l8,-3z" fill="#ff3e9a">
+    <path d="M1100,40 l3,8 l8,3 l-8,3 l-3,8 l-3,-8 l-8,-3 l8,-3z" fill="#f4f1e8">
       <animateTransform attributeName="transform" type="rotate" values="0 1100 51;-360 1100 51" dur="6s" repeatCount="indefinite"/>
     </path>
-    <path d="M820,150 l3,7 l7,3 l-7,3 l-3,7 l-3,-7 l-7,-3 l7,-3z" fill="#3ed1ff">
+    <path d="M820,150 l3,7 l7,3 l-7,3 l-3,7 l-3,-7 l-7,-3 l7,-3z" fill="#f4f1e8">
       <animateTransform attributeName="transform" type="rotate" values="0 820 160;360 820 160" dur="7s" repeatCount="indefinite"/>
     </path>
   </g>
 
   <!-- moon -->
-  <circle cx="1040" cy="110" r="78" fill="#ffe9a3" opacity="0.45" filter="url(#glow)"/>
+  <circle cx="1040" cy="110" r="78" fill="#e8e4d8" opacity="0.45" filter="url(#glow)"/>
   <g filter="url(#wobble)">
-    <circle cx="1040" cy="110" r="62" fill="#fff1bf" stroke="#0b0712" stroke-width="3"/>
-    <circle cx="1018" cy="92" r="9" fill="#f0d98a"/>
-    <circle cx="1062" cy="128" r="12" fill="#f0d98a"/>
-    <circle cx="1052" cy="84" r="5" fill="#f0d98a"/>
+    <circle cx="1040" cy="110" r="62" fill="#ece8dc" stroke="#0b0712" stroke-width="3"/>
+    <circle cx="1018" cy="92" r="9" fill="#c9c4b6"/>
+    <circle cx="1062" cy="128" r="12" fill="#c9c4b6"/>
+    <circle cx="1052" cy="84" r="5" fill="#c9c4b6"/>
   </g>
 
   <!-- bats -->
@@ -81,27 +81,27 @@
 
   <!-- curly spiral hill (Burton classic) -->
   <g filter="url(#wobbleBig)">
-    <path d="M560,420 C700,300 820,280 900,300 C1000,325 1100,300 1200,250 L1200,420 Z" fill="url(#hill)" stroke="#4b3590" stroke-width="3"/>
+    <path d="M560,420 C700,300 820,280 900,300 C1000,325 1100,300 1200,250 L1200,420 Z" fill="url(#hill)" stroke="#3a3a40" stroke-width="3"/>
     <path d="M1010,300 C1010,230 1060,190 1110,205 C1160,220 1170,280 1130,300 C1095,318 1062,290 1072,262 C1080,240 1108,240 1114,260"
-          fill="none" stroke="#9be33a" stroke-width="7" stroke-linecap="round"/>
+          fill="none" stroke="#d8d4c8" stroke-width="7" stroke-linecap="round"/>
     <!-- crooked tombstones -->
-    <path d="M760,330 q0,-30 22,-30 q22,0 22,30 v40 h-44z" fill="#2a1f44" stroke="#0b0712" stroke-width="3" transform="rotate(-8 782 340)"/>
-    <text x="770" y="338" font-family="Courier New, monospace" font-size="11" fill="#b9a8e6" transform="rotate(-8 782 340)">bugs</text>
-    <path d="M880,322 q0,-26 18,-26 q18,0 18,26 v36 h-36z" fill="#2a1f44" stroke="#0b0712" stroke-width="3" transform="rotate(6 898 330)"/>
-    <text x="884" y="330" font-family="Courier New, monospace" font-size="10" fill="#b9a8e6" transform="rotate(6 898 330)">RIP</text>
+    <path d="M760,330 q0,-30 22,-30 q22,0 22,30 v40 h-44z" fill="#2a2a2e" stroke="#0b0712" stroke-width="3" transform="rotate(-8 782 340)"/>
+    <text x="770" y="338" font-family="Courier New, monospace" font-size="11" fill="#9a9aa0" transform="rotate(-8 782 340)">bugs</text>
+    <path d="M880,322 q0,-26 18,-26 q18,0 18,26 v36 h-36z" fill="#2a2a2e" stroke="#0b0712" stroke-width="3" transform="rotate(6 898 330)"/>
+    <text x="884" y="330" font-family="Courier New, monospace" font-size="10" fill="#9a9aa0" transform="rotate(6 898 330)">RIP</text>
   </g>
 
   <!-- eyes blinking in the dark -->
-  <g fill="#ffd23f">
+  <g fill="#f4f1e8">
     <g transform="translate(640,360)">
       <ellipse cx="0" cy="0" rx="6" ry="4"><animate attributeName="ry" values="4;4;0.3;4;4" keyTimes="0;0.9;0.94;0.98;1" dur="4s" repeatCount="indefinite"/></ellipse>
       <ellipse cx="18" cy="0" rx="6" ry="4"><animate attributeName="ry" values="4;4;0.3;4;4" keyTimes="0;0.9;0.94;0.98;1" dur="4s" repeatCount="indefinite"/></ellipse>
     </g>
-    <g transform="translate(980,385)" fill="#ff3e9a">
+    <g transform="translate(980,385)" fill="#e8202a">
       <ellipse cx="0" cy="0" rx="5" ry="3.5"><animate attributeName="ry" values="3.5;3.5;0.3;3.5;3.5" keyTimes="0;0.85;0.9;0.95;1" dur="5.3s" repeatCount="indefinite"/></ellipse>
       <ellipse cx="15" cy="0" rx="5" ry="3.5"><animate attributeName="ry" values="3.5;3.5;0.3;3.5;3.5" keyTimes="0;0.85;0.9;0.95;1" dur="5.3s" repeatCount="indefinite"/></ellipse>
     </g>
-    <g transform="translate(80,380)" fill="#3ed1ff">
+    <g transform="translate(80,380)" fill="#f4f1e8">
       <ellipse cx="0" cy="0" rx="5" ry="3.5"><animate attributeName="ry" values="3.5;0.3;3.5;3.5" keyTimes="0;0.04;0.08;1" dur="3.4s" repeatCount="indefinite"/></ellipse>
       <ellipse cx="15" cy="0" rx="5" ry="3.5"><animate attributeName="ry" values="3.5;0.3;3.5;3.5" keyTimes="0;0.04;0.08;1" dur="3.4s" repeatCount="indefinite"/></ellipse>
     </g>
@@ -109,7 +109,7 @@
 
   <!-- rotating text ring around the sign -->
   <g>
-    <text font-family="Arial Black, Impact, sans-serif" font-size="17" fill="#ffd23f">
+    <text font-family="Arial Black, Impact, sans-serif" font-size="17" fill="#f4f1e8">
       <textPath xlink:href="#ring" textLength="985" lengthAdjust="spacing">★ DON'T CODE DUMB ★ BENZIN8 ★ SHIP IT LOUD ★ DON'T CODE DUMB ★ BENZIN8 ★ SHIP IT LOUD</textPath>
     </text>
     <animateTransform attributeName="transform" type="rotate" from="0 240 210" to="360 240 210" dur="24s" repeatCount="indefinite"/>
@@ -128,12 +128,12 @@
 
   <!-- name: bouncing multicolor letters -->
   <g font-family="Arial Black, Impact, sans-serif" font-size="104" stroke="#0b0712" stroke-width="5" paint-order="stroke" filter="url(#wobble)">
-    <text x="430" y="235" fill="#ff3e9a">B<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0s" repeatCount="indefinite"/></text>
-    <text x="510" y="235" fill="#ffd23f">E<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.15s" repeatCount="indefinite"/></text>
-    <text x="586" y="235" fill="#9be33a">N<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.3s" repeatCount="indefinite"/></text>
-    <text x="672" y="235" fill="#3ed1ff">Z<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.45s" repeatCount="indefinite"/></text>
-    <text x="746" y="235" fill="#b06bff">I<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.6s" repeatCount="indefinite"/></text>
-    <text x="786" y="235" fill="#ff7a29">N<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.75s" repeatCount="indefinite"/></text>
+    <text x="430" y="235" fill="#f4f1e8">B<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0s" repeatCount="indefinite"/></text>
+    <text x="510" y="235" fill="#f4f1e8">E<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.15s" repeatCount="indefinite"/></text>
+    <text x="586" y="235" fill="#f4f1e8">N<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.3s" repeatCount="indefinite"/></text>
+    <text x="672" y="235" fill="#f4f1e8">Z<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.45s" repeatCount="indefinite"/></text>
+    <text x="746" y="235" fill="#f4f1e8">I<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.6s" repeatCount="indefinite"/></text>
+    <text x="786" y="235" fill="#f4f1e8">N<animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.6s" begin="0.75s" repeatCount="indefinite"/></text>
     <text x="872" y="235" fill="#e8202a">8<animateTransform attributeName="transform" type="rotate" values="0 905 200;360 905 200" dur="4s" repeatCount="indefinite"/></text>
   </g>
 
